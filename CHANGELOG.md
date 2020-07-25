@@ -7,3 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 0.1 - 25/07/2020
 
 - Initial release
+
+## v0.2 - 25/07/2020
+
+- Small fixes
