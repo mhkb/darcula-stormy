@@ -2,8 +2,12 @@
     "name": "vscode-theme-darcula-stormy",
     "displayName": "Darcula Stormy",
     "description": "A theme extension for VS Code based on Darcula theme from Jetbrains IDEs",
-    "version": "0.1",
+    "version": "0.2.0",
     "publisher": "mhkb",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mhkb/darcula-stormy"
+    },
     "engines": {
         "vscode": "^1.47.0"
     },
