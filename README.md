@@ -1,13 +1,9 @@
-# README
-## This is the README for your extension "darcula-stormy"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Darcula Stormy Visual Studio Code Theme
+## This theme is inspired by the Darcula theme in IntelliJ/PHPStorm editors
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+* The font colours and backgrounds are very similar.
+* Due to the VSCode textmate selectors not being able to some of the individual elements in the same way IntelliJ does, some elements can't be coloured correctly.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+This is a work in progress. Where possible, I will continue to improve it. Please feel free to submit a pull request if you make any improvements.
 
 **Enjoy!**
