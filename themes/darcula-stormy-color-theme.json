@@ -666,7 +666,10 @@
 			"scope": [
 				"meta.class.php meta.class.body.php meta.method-call.php meta.method-call.static.php string.unquoted.heredoc.php meta.embedded.sql source.sql",
 				"meta.class.php meta.class.body.php meta.method-call.php meta.method-call.static.php string.unquoted.heredoc.php meta.embedded.sql punctuation.section.embedded.begin.php punctuation.definition.string.php",
-				"meta.class.php meta.class.body.php meta.method-call.php meta.function-call.php support.function.math.php"
+				"meta.class.php meta.class.body.php meta.method-call.php meta.function-call.php support.function.math.php",
+				"source.shell string.quoted.double.shell variable.other.bracket.shell",
+				"source.shell string.quoted.double.shell variable.other.normal.shell",
+				"source.shell variable.other.bracket.shell"
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
@@ -683,10 +686,22 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.key-value.json",
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json punctuation.separator.array.json",
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json constant.character.escape.json",
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.pair.json"
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.pair.json",
+				"source.shell",
+				"source.shell support.function.builtin.shell",
+				"source.shell meta.scope.if-block.shell meta.scope.logical-expression.shell keyword.operator.logical.shell",
+				"source.shell string.interpolated.dollar.shell"
 			],
 			"settings": {
 				"foreground": "#CC7832"
+			}
+		},
+		{
+			"scope": [
+				"source.shell meta.scope.if-block.shell string.quoted.double.shell constant.character.escape.shell"
+			],
+			"settings": {
+				"foreground": "#628953"
 			}
 		}
 	]
