@@ -177,15 +177,81 @@
 			}
 		},
 		{
-			"scope": "meta.tag.tsx keyword.operator.assignment",
+			"scope": [
+                "constant.language",
+                "variable.language",
+                "keyword",
+                "keyword.operator.new",
+                "keyword.operator.delete",
+                "keyword.operator.static",
+                "keyword.operator.this",
+                "keyword.operator.expression",
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end",
+                "punctuation.separator.comma",
+                "punctuation.separator.parameter",
+                "punctuation.terminator.statement",
+                "punctuation.terminator.rule.css",
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.key-value.json",
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json punctuation.separator.array.json",
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json constant.character.escape.json",
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.pair.json",
+				"source.shell",
+				"source.shell support.function.builtin.shell",
+				"source.shell meta.scope.if-block.shell meta.scope.logical-expression.shell keyword.operator.logical.shell",
+				"source.shell string.interpolated.dollar.shell"
+            ],
 			"settings": {
-				"foreground": "#638954"
+				"foreground": "#CC7832"
 			}
 		},
 		{
-			"scope": "punctuation.separator.comma, punctuation.separator.parameter, punctuation.terminator.statement, punctuation.terminator.rule.css",
+			"scope": [
+                "css.entity.name.tag",
+                "entity.name.tag.css",
+                "keyword.scss",
+                "keyword.css",
+                "markup.heading",
+                "scss.entity.name.tag",
+                "storage",
+                "storage.type",
+                "storage.type.class.jsdoc",
+                "storage.modifier",
+                "storage.modifier.ts",
+                "storage.arrow",
+                "string.regexp",
+                "yaml.entity.name",
+                "yaml.string.entity.name",
+            ],
 			"settings": {
-				"foreground": "#CC7832"
+				"foreground": "#CC7832",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.class.php meta.class.body.php variable.other.property.php",
+				"punctuation.terminator.expression.php",
+				"punctuation.separator.delimiter.php",
+				"variable.other.env",
+				"support.function.construct.php",
+				"meta.class.body.php meta.method-call.static.php entity.name.function.php",
+				"storage.type.function.php",
+				"meta.function.parameters.php meta.function.parameter.typehinted.php storage.type.php",
+				"meta.class.php meta.class.body.php meta.function.php meta.function.parameters.php meta.function.parameter.array.php storage.type.php",
+				"meta.class.php meta.class.body.php storage.type.php",
+				"meta.class.php meta.class.body.php meta.function.php storage.type.php",
+				"meta.class.body.php meta.function-call.php string.regexp.single-quoted.php keyword.operator.regexp.php"
+			],
+			"settings": {
+				"foreground": "#CC7832",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "meta.tag.tsx keyword.operator.assignment",
+			"settings": {
+				"foreground": "#638954"
 			}
 		},
 		{
@@ -195,21 +261,9 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
-			"settings": {
-				"foreground": "#CC7832"
-			}
-		},
-		{
 			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#5D98BF"
-			}
-		},
-		{
-			"scope": "constant.language, variable.language",
-			"settings": {
-				"foreground": "#CC7832"
 			}
 		},
 		{
@@ -219,22 +273,9 @@
 			}
 		},
 		{
-			"scope": "keyword, keyword.operator.new, keyword.operator.delete, keyword.operator.static, keyword.operator.this, keyword.operator.expression",
-			"settings": {
-				"foreground": "#CC7832"
-			}
-		},
-		{
 			"scope": "meta.return.type, meta.type.annotation, meta.type.parameters, support.type.primitive",
 			"settings": {
 				"foreground": "#5D98BF"
-			}
-		},
-		{
-			"scope": "storage, storage.type, storage.modifier, storage.arrow",
-			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": ""
 			}
 		},
 		{
@@ -259,13 +300,6 @@
 			}
 		},
 		{
-			"scope": "markup.heading",
-			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": ""
-			}
-		},
-		{
 			"scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end, entity.name.tag",
 			"settings": {
 				"foreground": "#E8BF6A",
@@ -276,13 +310,6 @@
 			"scope": "meta.object-literal.key",
 			"settings": {
 				"foreground": "#9E72AD",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "storage.modifier.ts",
-			"settings": {
-				"foreground": "#CC7832",
 				"fontStyle": ""
 			}
 		},
@@ -315,34 +342,6 @@
 			}
 		},
 		{
-			"scope": "storage.type.class.jsdoc",
-			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "entity.name.type.instance.jsdoc",
-			"settings": {
-				"foreground": "#FFC66D",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "yaml.entity.name, yaml.string.entity.name",
-			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": ""
-			}
-		},
-		{
 			"scope": "punctuation.definition.group.regexp, punctuation.definition.character-class.regexp",
 			"settings": {
 				"foreground": "#FFC66D",
@@ -367,13 +366,6 @@
 			"scope": "string.template.tag, string.template.punctuation.tag, string.quoted.punctuation.tag, string.quoted.embedded.tag, string.quoted.double.tag",
 			"settings": {
 				"foreground": "#628953",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "entity.name.tag.css",
-			"settings": {
-				"foreground": "#CC7832",
 				"fontStyle": ""
 			}
 		},
@@ -420,23 +412,9 @@
 			}
 		},
 		{
-			"scope": "css.entity.name.tag, scss.entity.name.tag",
-			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": ""
-			}
-		},
-		{
 			"scope": "meta.selector.css, entity.attribute-name.id, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css",
 			"settings": {
 				"foreground": "#FFC66D",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "keyword.scss, keyword.css",
-			"settings": {
-				"foreground": "#CC7832",
 				"fontStyle": ""
 			}
 		},
@@ -528,26 +506,6 @@
 		},
 		{
 			"scope": [
-				"meta.class.php meta.class.body.php variable.other.property.php",
-				"punctuation.terminator.expression.php",
-				"punctuation.separator.delimiter.php",
-				"variable.other.env",
-				"support.function.construct.php",
-				"meta.class.body.php meta.method-call.static.php entity.name.function.php",
-				"storage.type.function.php",
-				"meta.function.parameters.php meta.function.parameter.typehinted.php storage.type.php",
-				"meta.class.php meta.class.body.php meta.function.php meta.function.parameters.php meta.function.parameter.array.php storage.type.php",
-				"meta.class.php meta.class.body.php storage.type.php",
-				"meta.class.php meta.class.body.php meta.function.php storage.type.php",
-				"meta.class.body.php meta.function-call.php string.regexp.single-quoted.php keyword.operator.regexp.php"
-			],
-			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
 				"meta.class.php meta.class.body.php meta.function-call.php meta.method-call.php entity.name.function.php",
 				"meta.method-call.php meta.function-call.php meta.method-call.php entity.name.function.php",
 				"meta.method-call.php meta.method-call.static.php meta.method-call.php entity.name.function.php",
@@ -600,21 +558,6 @@
 			"scope": "source.json meta.structure.dictionary.json string.json support.type.property-name.json",
 			"settings": {
 				"foreground": "#9876AA"
-			}
-		},
-		{
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.key-value.json",
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json punctuation.separator.array.json",
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json constant.character.escape.json",
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.pair.json",
-				"source.shell",
-				"source.shell support.function.builtin.shell",
-				"source.shell meta.scope.if-block.shell meta.scope.logical-expression.shell keyword.operator.logical.shell",
-				"source.shell string.interpolated.dollar.shell"
-			],
-			"settings": {
-				"foreground": "#CC7832"
 			}
 		},
 		{
