@@ -1,4 +1,9 @@
 # Darcula Stormy Visual Studio Code Theme
+
+[![Version](https://vsmarketplacebadge.apphb.com/version/mhkb.vscode-theme-darcula-stormy.svg)](https://marketplace.visualstudio.com/items?itemName=mhkb.vscode-theme-darcula-stormy)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/mhkb.vscode-theme-darcula-stormy.svg)](https://marketplace.visualstudio.com/items?itemName=mhkb.vscode-theme-darcula-stormy)
+
+
 ## This theme is inspired by the Darcula theme in the IntelliJ/PHPStorm editors
 
 * The font colours and backgrounds are very similar to IntelliJ Darcula.
