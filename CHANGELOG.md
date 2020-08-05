@@ -11,3 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## v0.2 - 25/07/2020
 
 - Small fixes
+
+## v0.3.1 - 27/07/2020
+
+- Added JSON specific support
