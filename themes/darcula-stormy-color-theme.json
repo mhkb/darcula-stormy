@@ -249,6 +249,51 @@
 			}
 		},
 		{
+			"scope": [
+                "constant.numeric",
+                "meta.return.type",
+                "meta.type.annotation",
+                "meta.type.parameters",
+                "meta.class.body.php meta.function-call.php string.regexp.single-quoted.php string.regexp.arbitrary-repetition.php",
+                "support.type.primitive"
+            ],
+			"settings": {
+				"foreground": "#5D98BF"
+			}
+		},
+		{
+			"scope": [
+                "ts.cast.expr",
+                "ts.meta.entity.class.method.new.expr.cast",
+                "ts.meta.entity.type.name.new.expr.cast",
+                "ts.meta.entity.type.name.var-single-variable.annotation",
+                "tsx.cast.expr",
+                "tsx.meta.entity.class.method.new.expr.cast",
+                "tsx.meta.entity.type.name.new.expr.cast",
+                "tsx.meta.entity.type.name.var-single-variable.annotation",
+                "ts.meta.type.support",
+                "ts.meta.type.entity.name",
+                "ts.meta.class.inherited-class",
+                "tsx.meta.type.support",
+                "tsx.meta.type.entity.name",
+                "tsx.meta.class.inherited-class",
+                "type-declaration",
+                "enum-declaration",
+                "support.type.property-name.variable.css",
+                "support.type.property-name.variable.scss",
+                "variable.scss",
+                "property-list.property-value.rgb-value",
+                "keyword.other.unit.css",
+                "keyword.other.unit.scss",
+                "punctuation.definition.constant.css",
+                "constant.other.color.rgb-value.hex.css"
+            ],
+			"settings": {
+				"foreground": "#5D98BF",
+				"fontStyle": ""
+			}
+        },
+        {
 			"scope": "meta.tag.tsx keyword.operator.assignment",
 			"settings": {
 				"foreground": "#638954"
@@ -261,21 +306,9 @@
 			}
 		},
 		{
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "#5D98BF"
-			}
-		},
-		{
 			"scope": "constant.character, constant.other",
 			"settings": {
 				"foreground": "#9E73AD"
-			}
-		},
-		{
-			"scope": "meta.return.type, meta.type.annotation, meta.type.parameters, support.type.primitive",
-			"settings": {
-				"foreground": "#5D98BF"
 			}
 		},
 		{
@@ -310,20 +343,6 @@
 			"scope": "meta.object-literal.key",
 			"settings": {
 				"foreground": "#9E72AD",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "ts.cast.expr, ts.meta.entity.class.method.new.expr.cast, ts.meta.entity.type.name.new.expr.cast, ts.meta.entity.type.name.var-single-variable.annotation, tsx.cast.expr, tsx.meta.entity.class.method.new.expr.cast, tsx.meta.entity.type.name.new.expr.cast, tsx.meta.entity.type.name.var-single-variable.annotation",
-			"settings": {
-				"foreground": "#5D98BF",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "ts.meta.type.support, ts.meta.type.entity.name, ts.meta.class.inherited-class, tsx.meta.type.support, tsx.meta.type.entity.name, tsx.meta.class.inherited-class, type-declaration, enum-declaration",
-			"settings": {
-				"foreground": "#5D98BF",
 				"fontStyle": ""
 			}
 		},
@@ -377,23 +396,9 @@
 			}
 		},
 		{
-			"scope": "support.type.property-name.variable.css, support.type.property-name.variable.scss, variable.scss",
-			"settings": {
-				"foreground": "#5D98BF",
-				"fontStyle": ""
-			}
-		},
-		{
 			"scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.class.scss, entity.other.attribute-name.parent-selector-suffix.css, entity.other.attribute-name.parent-selector-suffix.scss",
 			"settings": {
 				"foreground": "#FFC66D",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "property-list.property-value.rgb-value, keyword.other.unit.css, keyword.other.unit.scss, punctuation.definition.constant.css, constant.other.color.rgb-value.hex.css",
-			"settings": {
-				"foreground": "#5D98BF",
 				"fontStyle": ""
 			}
 		},
@@ -468,14 +473,6 @@
 			"settings": {
 				"foreground": "#808080",
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
-				"meta.class.body.php meta.function-call.php string.regexp.single-quoted.php string.regexp.arbitrary-repetition.php"
-			],
-			"settings": {
-				"foreground": "#5D98BF"
 			}
 		},
 		{
