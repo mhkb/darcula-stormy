@@ -1,2 +1,4 @@
 # vscode packages
 *.vsix
+
+.DS_Store
