@@ -94,7 +94,7 @@
                 "meta.class.php meta.class.body.php meta.method-call.php meta.function-call.php support.function.math.php",
                 "source.shell string.quoted.double.shell variable.other.bracket.shell",
                 "source.shell string.quoted.double.shell variable.other.normal.shell",
-                "source.shell variable.other.bracket.shell",
+                "source.shell variable.other.bracket.shell"
             ],
             "settings": {
                 "foreground": "#A9B7C6"
@@ -135,7 +135,7 @@
                 "punctuation.definition.parameters.begin.bracket.round.php",
                 "punctuation.definition.parameters.end.bracket.round.php",
                 "punctuation.definition.begin.bracket.curly.php",
-                "punctuation.definition.end.bracket.curly.php",
+                "punctuation.definition.end.bracket.curly.php"
             ],
             "settings": {
                 "foreground": "#A9B7C6",
@@ -169,7 +169,7 @@
                 "meta.class.php meta.class.body.php comment.block.documentation.phpdoc.php meta.other.type.phpdoc.php keyword.other.type.php",
                 "source.php comment.block.documentation.phpdoc.php meta.other.type.phpdoc.php keyword.other.type.php",
                 "punctuation.separator.delimiter.php",
-                "meta.other.type.phpdoc.php",
+                "meta.other.type.phpdoc.php"
             ],
             "settings": {
                 "foreground": "#A9B7C6",
@@ -221,7 +221,7 @@
                 "storage.arrow",
                 "string.regexp",
                 "yaml.entity.name",
-                "yaml.string.entity.name",
+                "yaml.string.entity.name"
             ],
             "settings": {
                 "foreground": "#CC7832",
