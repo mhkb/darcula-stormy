@@ -201,7 +201,8 @@
                 "source.shell",
                 "source.shell support.function.builtin.shell",
                 "source.shell meta.scope.if-block.shell meta.scope.logical-expression.shell keyword.operator.logical.shell",
-                "source.shell string.interpolated.dollar.shell"
+                "source.shell string.interpolated.dollar.shell",
+                "text.html.php meta.embedded.block.php punctuation.section.embedded.begin.php"
             ],
             "settings": {
                 "foreground": "#CC7832"
@@ -565,6 +566,12 @@
             ],
             "settings": {
                 "foreground": "#628953"
+            }
+        },
+        {
+            "scope": "meta.other.type.phpdoc.php support.class.builtin.php",
+            "settings": {
+                "foreground": "#5C6370"
             }
         }
     ]
