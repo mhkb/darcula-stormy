@@ -15,3 +15,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## v0.3.1 - 27/07/2020
 
 - Added JSON specific support
+
+## v0.8.0 - 16/07/2021
+
+- Added more PHP colour settings
+- Reorganised scopes in darcula-stormy-color-theme.json to make them easier to find.
