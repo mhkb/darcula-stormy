@@ -50,7 +50,7 @@
         "scrollbar.shadow": "#ffffff00",
         "sideBar.background": "#232525",
         "sideBarSectionHeader.background": "#363a3b",
-        "statusBar.background": "#303030",
+        "statusBar.background": "#363A3B",
         "statusBar.debuggingBackground": "#511f1f",
         "statusBar.noFolderBackground": "#222225",
         "statusBarItem.hoverBackground": "#1f6fd0",
