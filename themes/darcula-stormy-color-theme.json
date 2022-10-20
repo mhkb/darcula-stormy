@@ -37,7 +37,7 @@
         "list.hoverBackground": "#37393b",
         "list.inactiveSelectionBackground": "#0d293e",
         "list.inactiveSelectionForeground": "#c3c3c3",
-        "panel.border": "#232525",
+        "panel.border": "#363a3b",
         "peekView.border": "#555555",
         "peekViewEditor.background": "#2e2f30",
         "peekViewEditor.matchHighlightBackground": "#232525",
